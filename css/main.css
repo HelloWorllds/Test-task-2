@@ -1,0 +1,246 @@
+body {
+  font-family: sans-serif;
+  color: #000;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialised;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+section {
+  padding: 90px 220px;
+  font-size: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+}
+
+body input:focus {
+  outline: none;
+}
+
+.main-header {
+  min-height: 640px;
+  background-color: #023145;
+  background-image: url(../img/background.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  padding: 25px 100px;
+}
+
+.main-header .breadcrumbs {
+  font-size: 16px;
+}
+
+.main-header .breadcrumbs ul {
+  padding: 0;
+  list-style: none;
+}
+
+.main-header .breadcrumbs ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.main-header .breadcrumbs ul li:first-child {
+  margin-left: 0;
+}
+
+.main-header .breadcrumbs ul li:last-child {
+  margin-right: 0;
+}
+
+.main-header .breadcrumbs ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-header .breadcrumbs ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-header .breadcrumbs ul .active {
+  opacity: 0.7;
+}
+
+.main-header .breadcrumbs ul .active a {
+  cursor: default;
+}
+
+.main-header .breadcrumbs ul .active a:hover {
+  text-decoration: none;
+}
+
+.main-header .title h1 {
+  font-size: 50px;
+  line-height: 56px;
+  font-weight: normal;
+  padding: 120px 0 50px;
+}
+
+.main-header .title p {
+  display: block;
+  width: 675px;
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.main-header .button-wrapper {
+  margin: 50px 0;
+}
+
+.main-header .button-wrapper button {
+  width: 330px;
+  height: 65px;
+  background: #eaac1d;
+  color: #000;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.main-header .button-wrapper button:active {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.description .title {
+  display: inline-block;
+  width: 48%;
+}
+
+.description .title h2 {
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.description .title p {
+  font-size: 21px;
+  padding: 20px 0;
+}
+
+.description .aside {
+  display: inline-block;
+  float: right;
+  width: 370px;
+  font-size: 18px;
+  margin-top: 35px;
+  padding: 30px 60px;
+  border-bottom: 5px #0158a7 solid;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.description .aside span, .description .aside p {
+  display: inline-block;
+}
+
+.description .aside span {
+  position: relative;
+  top: -32px;
+  margin-right: 15px;
+  color: #0158a7;
+  font-size: 19px;
+}
+
+.description .aside p {
+  width: 330px;
+  font-size: 21px;
+}
+
+.faq {
+  background: #f2f2f2;
+}
+
+.faq .accordion {
+  margin-bottom: 150px;
+}
+
+.faq .accordion h2 {
+  font-size: 45px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.faq .accordion h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.faq .accordion p {
+  font-size: 21px;
+  padding: 20px 0;
+}
+
+.faq .accordion input {
+  display: none;
+}
+
+.faq .accordion label {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.faq .accordion label h3:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 17px;
+  background-image: url(../img/arrow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out;
+}
+
+.faq .accordion article {
+  margin-left: 45px;
+  width: 80%;
+  -webkit-transition: max-height 0.3s ease-in-out;
+          transition: max-height 0.3s ease-in-out;
+  max-height: 0px;
+  overflow: hidden;
+}
+
+.faq .accordion article p {
+  padding: 0;
+}
+
+.faq .accordion input:checked ~ label h3:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 17px;
+  background-image: url(../img/arrow.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out;
+}
+
+.faq .accordion input:checked ~ article {
+  -webkit-transition: max-height 0.3s ease-in-out;
+          transition: max-height 0.3s ease-in-out;
+  max-height: 500px;
+}
+
+.faq .accordion .accordion-item {
+  margin-bottom: 20px;
+}

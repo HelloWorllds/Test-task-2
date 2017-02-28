@@ -1,0 +1,304 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
+	.description .title h2 {
+		font-size: 35px;
+	}
+
+	.description .title p {
+		font-size: 17px;
+	}
+
+	.description .aside {
+		font-size: 18px;
+		margin-top: 30px;
+		padding: 20px;
+	}
+
+	.description .aside span {
+		top: -25px;
+		margin-right: 15px;
+		font-size: 19px;
+	}
+
+	.description .aside p {
+		width: 80%;
+		font-size: 17px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+	section {
+		padding: 60px 70px;
+	}
+
+	.description .title h2 {
+		font-size: 35px;
+	}
+
+	.description .title p {
+		font-size: 17px;
+	}
+
+	.description .aside {
+		font-size: 18px;
+		margin-top: 30px;
+		padding: 20px;
+	}
+
+	.description .aside span {
+		top: -25px;
+		margin-right: 15px;
+		font-size: 19px;
+	}
+
+	.description .aside p {
+		width: 80%;
+		font-size: 17px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	section {
+		padding: 60px 50px;
+	}
+
+	.main-header {
+		padding: 25px 50px;
+	}
+
+	.main-header .title h1 {
+		font-size: 42px;
+		padding: 80px 0 50px;
+	}
+
+	.main-header .title p {
+		width: 450px;
+		font-size: 18px;
+	}
+
+	.description .title {
+		width: 90%;
+	}
+
+	.description .title h2 {
+		font-size: 40px;
+	}
+
+	.description .title p {
+		font-size: 18px;
+	}
+
+	.description .aside {
+		float: none;
+		width: 90%;
+		font-size: 18px;
+		margin-top: 25px;
+		padding: 15px;
+	}
+
+	.description .aside span {
+		top: 0px;
+		margin-right: 15px;
+		font-size: 19px;
+	}
+
+	.description .aside p {
+		width: 80%;
+		font-size: 17px;
+	} 
+
+	.faq .accordion h2 {
+		font-size: 35px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.faq .accordion h3 {
+		font-size: 20px;
+	}
+
+	.faq .accordion p {
+		font-size: 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	section {
+		padding: 50px 20px;
+	}
+
+	.main-header {
+		padding: 25px;
+		background-position: -550px 0px;
+	}
+
+	.main-header .breadcrumbs {
+		font-size: 12px;
+	}
+
+	.main-header .breadcrumbs ul li {
+		margin: 0 3px;
+	}
+
+	.main-header .title h1 {
+		font-size: 40px;
+		line-height: 45px;
+		padding: 80px 0 50px 25px;
+	}
+
+	.main-header .title p {
+		width: 300px;
+		font-size: 18px;
+		margin-left: 25px;
+	}
+
+	.main-header .button-wrapper {
+		margin: 50px 25px;
+	}
+
+	.main-header .button-wrapper button {
+		width: 260px;
+		height: 50px;
+		font-size: 18px;
+	}
+
+	.description .title {
+		width: 90%;
+		text-align: center;
+	}
+
+	.description .title h2 {
+		font-size: 30px;
+	}
+
+	.description .title p {
+		font-size: 17px;
+		padding: 20px 0;
+	}
+
+	.description .aside {
+		float: none;
+		width: 90%;
+		font-size: 17px;
+		margin-top: 25px;
+		padding: 15px;
+	}
+
+	.description .aside span {
+		top: -26px;
+		margin-right: 15px;
+		font-size: 19px;
+	}
+
+	.description .aside p {
+		width: 80%;
+		font-size: 17px;
+	} 
+
+	.faq .accordion h2 {
+		font-size: 35px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.faq .accordion h3 {
+		font-size: 20px;
+	}
+
+	.faq .accordion p {
+		font-size: 15px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	section {
+		padding: 50px 20px;
+	}
+
+	.main-header {
+		padding: 10px;
+		background-position: -550px 0px;
+	}
+
+	.main-header .breadcrumbs {
+		font-size: 11px;
+	}
+
+	.main-header .breadcrumbs ul li {
+		margin: 0 3px;
+	}
+
+	.main-header .title h1 {
+		font-size: 35px;
+		line-height: 40px;
+		padding: 80px 0 50px 20px;
+	}
+
+	.main-header .title p {
+		width: 300px;
+		font-size: 18px;
+		margin-left: 20px;
+	}
+
+	.main-header .button-wrapper {
+		margin: 50px 20px;
+	}
+
+	.main-header .button-wrapper button {
+		width: 260px;
+		height: 50px;
+		font-size: 18px;
+	}
+
+	.description .title {
+		width: 90%;
+		text-align: center;
+	}
+
+	.description .title h2 {
+		font-size: 30px;
+	}
+
+	.description .title p {
+		font-size: 17px;
+		padding: 20px 0;
+	}
+
+	.description .aside {
+		float: none;
+		width: 90%;
+		font-size: 17px;
+		margin-top: 25px;
+		padding: 15px;
+	}
+
+	.description .aside span {
+		top: -50px;
+		margin-right: 15px;
+		font-size: 19px;
+	}
+
+	.description .aside p {
+		width: 80%;
+		font-size: 17px;
+	} 
+
+	.faq .accordion h2 {
+		font-size: 35px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.faq .accordion h3 {
+		font-size: 20px;
+	}
+
+	.faq .accordion p {
+		font-size: 15px;
+	}
+}
